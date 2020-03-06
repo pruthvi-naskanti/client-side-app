@@ -7,6 +7,10 @@
 //     document.getElementById("grandtotal").innerHTML = "$" + (total + (total * rate / 100) + (total * 5.50 / 100));
 //     return false;
 // }
-function weightConverter(In lbs) {
-    document.getElementById("In Kgs").innerHTML = In lbs / 0.0022046;
+function weightConverter() {
+    const x = document.getElementById('id').value;
+    const s = convert(x);
+    document.getElementById("kgs").value = s;
 }
+
+const convert = (x) => { return x / 0.0022046 }
