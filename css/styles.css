@@ -1,0 +1,105 @@
+.profilePic {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pic1 {
+    height: 400;
+    width: 800;
+}
+
+img {
+    height: 250px;
+    width: 400px;
+}
+
+#future {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#background-section {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#about-me {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.navLinks {
+    font-family: Poppins, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    margin: 0;
+    opacity: 0.70;
+    background-color: #3b3b3bc7;
+    white-space: nowrap;
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0 25px 1px 25px;
+    font-size: 30px
+}
+
+.navLinks li a {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navLinks li a:hover {
+    color: #1C86EE;
+    font-weight: bold;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+}
+
+.tg th {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+}
+
+.tg .tg-0lax {
+    text-align: left;
+    vertical-align: top
+}
+
+.contact {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.Input {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
