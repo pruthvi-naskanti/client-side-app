@@ -8,9 +8,9 @@
 //     return false;
 // }
 function weightConverter() {
-    const x = document.getElementById('id').value;
+    const x = document.getElementById('lb').value;
     const s = convert(x);
-    document.getElementById("kgs").value = s;
+    document.getElementById("kg").value = s;
 }
 
-const convert = (x) => { return x / 0.0022046 }
+const convert = (x) => { return x / 2.2046 }
