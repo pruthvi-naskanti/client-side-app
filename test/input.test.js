@@ -1,10 +1,16 @@
 QUnit.module('MAIN MODULE', {}) // group all these tests together
 
-QUnit.test('TEST add', assert => {
-    assert.equal(convert(5), 2.26, 'lbs to kg')
-    assert.equal(convert(2), 0.90, 'lbs to kg')
-    assert.equal(convert(3), 1.36, 'lbs to kg')
-})
+
+QUnit.test("prettydate basics", function(assert) {
+    ``
+    assert.equal(convert('5'), 2.2679851220175995);
+});
+
+//QUnit.test('TEST add', assert => {
+// assert.equal(convert(5), 2.26)
+// assert.equal(convert(2), 0.90)
+// assert.equal(convert(3), 1.36)
+//})
 
 QUnit.config.autostart = false // sync = false; start after loading html
 

@@ -21,6 +21,7 @@
             <li><a href="index.html" rel="noopener">Home</a></li>
             <li><a href="contact.html" rel="noopener">Contact</a></li>
             <li><a href="Input.html" rel="noopener">Calculation</a></li>
+            <li><a href="test\qunit.html" rel="noopener">qunit test</a></li>
         </ul>
 
     </header>
@@ -28,15 +29,18 @@
     <main class="Input">
         <h2>Converion of Pounds to Kilograms</h2>
         <form>
-            In lbs <input type="number" placeholder="lbs" id="lb"><br><br> In Kgs <input type="number" placeholder="kgs" id="kg"><br><br>
-
+            In lbs <input type="number" placeholder="lbs" id="lb"><br><br> In kgs<input type="number" placeholder="kgs" id="kg"><br><br>
+            <label>In Kgs: <span id="kg"></span></label>
+            <br>
             <button onclick="weightConverter()">Convert</button><br><br>
-
+            <hr>
+            <input type="button" class="btn btn-primary" value="getDogImage" id="getscore"><br><br>
+            <img type="text" id="dogarea">
 
 
         </form>
     </main>
-    <script src="input.js"></script>
+    <script src="test\input.js"></script>
 </body>
 
 
